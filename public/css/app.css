@@ -9949,6 +9949,7 @@ h1 {
   font-size: 50px;
 }
 .menu #envoyer {
+  font-size: 50px;
   border: none;
   color: green;
   background-color: white;
@@ -9967,22 +9968,40 @@ h1 {
 }
 
 li {
+  font-size: 30px;
+  text-transform: uppercase;
   display: flex;
-  text-align: left;
-  font-size: 25px;
+  justify-content: space-between;
   padding: 0 100px;
   background-color: white;
   list-style: none;
   margin: 25px 10px;
   border-radius: 10px;
-  height: 50px;
-  border: solid 1px;
+  height: 55px;
+  border: solid 1px black;
   align-items: center;
-  box-shadow: 2px 2px 2px;
+  box-shadow: 2px 2px 2px black;
+}
+li button {
+  border: none;
+  background-color: white;
+}
+li button .fa-clipboard-check {
+  color: gray;
+}
+li button .fa-clipboard-check:hover {
+  color: green;
+}
+li button .fa-trash-alt {
+  color: gray;
+}
+li button .fa-trash-alt:hover {
+  color: red;
 }
 
 .t_ok {
-  background-color: red;
+  color: green;
+  border: solid 3px green;
 }
 
 .none {
