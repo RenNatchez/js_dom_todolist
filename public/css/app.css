@@ -9928,9 +9928,32 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  margin: 0 5em;
+}
+
 h1 {
   padding-top: 50px;
   padding-bottom: 25px;
+}
+
+.menu {
+  background-color: white;
+  border-radius: 10px;
+}
+.menu input {
+  border: none;
+  background-color: white;
+}
+.menu #envoyer {
+  border: none;
+  color: green;
+  background-color: white;
+  border-radius: 10px;
+}
+.menu #envoyer:hover {
+  background-color: green;
+  color: white;
 }
 
 /*!
@@ -16048,4 +16071,7 @@ readers do not read off random characters that represent icons */
 }
 .far {
   font-family: "Font Awesome 5 Free";
-  font
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=app.css.map */
