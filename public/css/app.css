@@ -9963,6 +9963,12 @@ h1 {
   color: white;
 }
 
+.btn_family {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+}
+
 .listTaches ul {
   margin-top: 50px;
 }
@@ -10005,6 +10011,10 @@ li button .fa-trash-alt:hover {
 }
 
 .none {
+  display: none;
+}
+
+.nonefinal {
   display: none;
 }
 
