@@ -78,6 +78,7 @@ let darkmodeapp = () => {
         var html = document.querySelector('html')
         html.style.filter = "invert(0%)"
         html.style.backgroundColor = 'white'
+
     }
 }
 darkMode.addEventListener('click', darkmodeapp)
